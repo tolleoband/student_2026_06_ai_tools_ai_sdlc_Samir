@@ -8,12 +8,12 @@
 
 | # | Tool | My one-line classification (both questions) |
 |---|---|---|
-| 1 | **pytest** |  |
-| 2 | **Claude Code** |  |
-| 3 | **GitHub Actions** |  |
-| 4 | **SonarQube** |  |
-| 5 | **Datadog Watchdog** |  |
-| 6 | **Docker** |  |
+| 1 | **pytest** | executes |
+| 2 | **Claude Code** | generates |
+| 3 | **GitHub Actions** | executes |
+| 4 | **SonarQube** | generates |
+| 5 | **Datadog Watchdog** | generates |
+| 6 | **Docker** | executes |
 
 > **The SonarQube nuance:** its detection is rule-based and deterministic — every finding maps to a
 > named rule. But as of **SonarQube Server 2026.2 (March 2026)** it added **AI CodeFix** and
